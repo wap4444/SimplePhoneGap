@@ -54,7 +54,7 @@ var app = {
         iosSettings["kOSSettingsKeyAutoPrompt"] = true;
         iosSettings["kOSSettingsKeyInAppLaunchURL"] = false;
 
-        window.plugins.OneSignal.startInit( "338ecc0f-8620-437d-9ed3-9cd12d5976d9", "703322744261")
+        window.plugins.OneSignal.startInit( "338ecc0f-8620-437d-9ed3-9cd12d5976d9", "")
                                 .handleNotificationReceived(didReceiveRemoteNotificationCallBack)
                                 .handleNotificationOpened(didOpenRemoteNotificationCallBack)
                                 .inFocusDisplaying(window.plugins.OneSignal.OSInFocusDisplayOption.Notification)
